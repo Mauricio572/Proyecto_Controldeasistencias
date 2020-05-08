@@ -1,0 +1,32 @@
+.navbar .navbar-brand img {
+    width: 80px;
+  }
+
+  #carousel {
+    position: relative;
+  }
+
+  #carousel .carousel-inner img {
+    max-height: 70vh;
+  }
+
+  #carousel img {
+    filter: grayscale(70%);
+  }
+
+  #carousel .overlay {
+    z-index:1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+
+  #carousel .overlay .container,
+  #carousel .overlay .row {
+    height: 100%;
+  }
